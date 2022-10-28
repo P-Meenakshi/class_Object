@@ -23,7 +23,7 @@ public class AccountServiceTests {
      Account counter is set to Zero as the account no is created by incrementing the counter
     */
     @BeforeEach
-    public void setUp() {
+    public  void setUp() {
         Account.setCounter(0);
         accountService = new AccountService();
         account = new Account(100,"active");
